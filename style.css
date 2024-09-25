@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Menubar-section */
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 500px;
+    position: fixed;
+  
+}
+
+.navbar h3{
+    font-weight: 200;
+    word-spacing: 3px;
+}
+
+.nav-lang{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-lang p{
+    font-size: 15px;
+}
+
+.nav-lang img{
+    height: 13px;
+    width: 20px;
+    object-fit: cover;
+    margin-top: 3px;
+}
+
+.nav-lang  i{
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.nav-lang:hover{
+    background-color: #45627e6a  ;
+}
+
+/* Hero-section */
+
+.hero{
+    height: 75vh;
+    width: 100%;
+    background-color: #18bc9c;
+}
+
+.hero-img{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    word-spacing: 8px;
+}
+
+
+/* sign-up-section */
+
+.sign-up{
+    height: 20vh;
+    width: 100%;
+
+}
+
+.sign-up p{
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+}
+
+.sign-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+.sign-up input{
+    height: 35px;
+    width: 350px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px solid #bdc1c3;
+
+
+}
+
+.sign-up button{
+    height: 35px;
+    width: 70px;
+    background-color: #18bc9c;
+    border: none;
+    border-radius: 3px;
+}
+
+/* page-1 section */
+
+.page-1{
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+
+.page-1 h2 {
+    height: 10vh;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300; 
+    color: #999999;
+
+}
+
+.page-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all ease 0.6s;
+
+}
+
+.box-in{
+
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all ease 0.6s;
+    text-align: center;
+    padding: 60px 20px;
+    word-spacing: 3px;
+    display: block;
+
+
+}
+.box-in img{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.box-in span{
+    color: #428bca;
+    font-size: 14px;
+}
+
+.box-in p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box-in:hover{
+    background-color: #18bc9c;
+    
+}
+
+
+.box:hover{
+    background-color: #18bc9c;
+    
+}
+
+
+.box img{
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.box h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.box p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* about-us section */
+
+.about-us{
+    height: 30vh;
+    width: 100%;
+    background-color: #2c3e50;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+}
+
+.about-us h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+
+.about-us p{
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.about-us span{
+    color: #428bca;
+    font-size: 15px;
+}
