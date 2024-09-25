@@ -134,6 +134,8 @@ html,body{
     background-color: #18bc9c;
     border: none;
     border-radius: 3px;
+    color: white;
+    font-size: 12px;
 }
 
 /* page-1 section */
